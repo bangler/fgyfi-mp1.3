@@ -1,0 +1,45 @@
+/*********************************************/
+/*              BUTTONS CSS                  "/
+/*********************************************/
+ 
+.btn {
+    border-radius: 4px;
+    padding: 12px 30px;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-weight: 700;
+    font-size: 15px !important;
+  }
+  .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+  }
+  .btn:hover {
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+  }
+  .btn.btn-primary {
+    color: #ffffff;
+    background-color: #357a3e !important;
+    border: 1px solid #357a3e !important;
+    -webkit-box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+    box-shadow: 0 4px 20px rgba(23, 23, 24, 0.15);
+  }
+  
+  .btn.btn-secondary {
+    color: #ffffff;
+    background-color: #357a3e !important;
+    border: 1px solid #357a3e !important;
+    -webkit-box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+    box-shadow: 0 4px 20px rgba(94, 98, 255, 0.15);
+  }
+  .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary.focus, .btn.btn-primary:active, .btn.btn-primary.active {
+    background-color: #2dbd75 !important;
+    border: 1px solid #2dbd75 !important;
+    -webkit-box-shadow: 0 3px 10px rgba(94, 255, 134, 0.5);
+    box-shadow: 0 3px 10px rgba(94, 255, 134, 0.5);
+    color: #ffffff !important;
+  }
+  

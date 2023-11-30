@@ -1,0 +1,328 @@
+/*********************************************/
+/*              UTILITY CSS                  "/
+/*********************************************/
+ 
+.text-sub {
+    color: #9b9bae !important;
+  }
+  .bg-grey {
+    background-color: #F8F6FA !important;
+  }
+  .title {
+    color: #343a40;
+  }
+  .header-colorize {
+    font-weight: 700;
+    color: #357a3e;
+  }
+  .section {
+    padding: 120px 0px 120px 0px;
+    position: relative;
+  }
+  .size-14 {
+    font-size: 14px;
+  }
+  .size-15 {
+    font-size: 15px;
+  }
+  .size-18 {
+    font-size: 18px;
+  }
+  .right-icon {
+    line-height: 0;
+    font-size: 19px;
+  }
+  .learn-more {
+    color: #357a3e;
+    font-weight: 700;
+  }
+  .highlight {
+    background: rgba(122, 96, 183, 0.1);
+    -webkit-box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    box-shadow: 0 1px 2px rgba(122, 96, 183, 0.5);
+    color: #357a3e;
+    border-radius: 13px;
+    display: inline-block;
+    padding: .25em .4em;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  .header-bg {
+    padding: 200px 0 280px;
+    background-image: url('../images/header-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+  }
+  .header-bg .header-small-title {
+    letter-spacing: 2px;
+  }
+  .header-bg .main-title {
+    font-size: 2.8rem;
+    line-height: 1.35;
+    color: #357a3e;
+  }
+
+
+  .accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: #ccc; 
+  }
+  
+  .panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+  }
+
+
+  *-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    color: rgba(0,0,0,.1);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*-------------------------------*/
+/*      Code snippet by          */
+/*      @maridlcrmn              */
+/*-------------------------------*/
+
+
+.imgs {
+  border-radius: 12px;
+}
+
+.imgnav {
+  box-shadow: 10px #f0eeee;
+}
+
+
+
+/* .container{ border: 2px solid green }
+.grid-item{ border: 2px solid red; padding: 20px;}
+.grid{ border: 1px solid blue} */
+.filters ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  border-bottom: 2px solid #D9D9D9;
+  margin: 30px 15px
+}
+.filters ul li{
+  display: inlnie-block;
+  text-align: center;
+  margin-right: 12px;
+  padding: 0 5px 8px 5px;
+  font-weight: 700;
+  font-size: 16px; 
+  cursor: pointer;
+  position: relative;
+  margin-bottom: -2px;
+  color: #777;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+.filters ul li:hover{
+  color: #EB2D3A;
+}
+.filters ul li.is-checked{
+  border-bottom: 2px solid #EB2D3A;
+}
+.filters ul li:last-child{
+  margin-right: 0;
+}
+ 
+
+.grid .grid-item h1{
+  background: #EEEEEE;
+  height: 150px;
+  line-height: 150px;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+.div-bg {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../images/1.jpg");
+  height: 300px;
+  width: 100%;
+
+  filter: grayscale(200%) blur(4px);
+  
+}
+ 
+.filter-div-bg {
+  filter: blur(1px)
+}
+
+  
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #2c9750;
+}
+
+
+/*CSS buttons*/
+.grid {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+.button-group {
+  margin: 80px auto;
+  display: table;
+}
+.button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 0;
+  color: #333;
+  cursor: pointer;
+  background-color: #eee;
+  margin: 0 3px;
+}
+.button:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+.button.is-checked {
+  background: green;
+  color: #fff;
+}
+.element-item {
+  background-color: #fff;
+  padding: 0;
+  margin: 10px;
+  width: calc(33% - 20px);
+  display: inline-block;
+}
+.item-image {
+  width: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+}
+.item-title {
+  margin: 0;
+  padding: 10px;
+  height: 40px;
+  overflow: hidden;
+}
+
+/* end gallery style */
+body {
+  background-color: #1d1e22
+}
+
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
